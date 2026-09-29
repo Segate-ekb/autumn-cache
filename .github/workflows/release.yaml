@@ -14,7 +14,7 @@ jobs:
     env:
       audience: https://hub.oscript.io
       hub: https://hub.oscript.io
-      pool: segate-ekb
+      pool: default
       package: autumn-cache
     steps:
       - uses: actions/checkout@v4
